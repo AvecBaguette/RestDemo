@@ -21,4 +21,5 @@ public interface SportRepository extends CrudRepository<Sport, Long> {
     @Transactional
     long deleteByName(String name);
     //test
+    //test2
 }
